@@ -10,6 +10,6 @@ int setOne(int x) {
 }
 
 // 找到最右边的1
-int removeTheLastOne(int x) {
+int findTheLastOne(int x) {
     return x & (-x);
 } 
